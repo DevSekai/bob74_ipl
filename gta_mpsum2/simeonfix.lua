@@ -50,6 +50,6 @@ CriminalEnterpriseSmeonFix = {
         CriminalEnterpriseSmeonFix.Ipl.Load()
         CriminalEnterpriseSmeonFix.Entities.Load()
 
-        RefreshInterior(CriminalEnterpriseSmeonFix.interiorId)
+        RefreshInterior(CriminalEnterpriseSmeonFix.InteriorId)
     end
 }

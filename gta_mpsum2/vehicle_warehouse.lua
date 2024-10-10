@@ -55,6 +55,6 @@ CriminalEnterpriseVehicleWarehouse = {
         CriminalEnterpriseVehicleWarehouse.Ipl.Load()
         CriminalEnterpriseVehicleWarehouse.Entities.Load()
 
-        RefreshInterior(CriminalEnterpriseVehicleWarehouse.interiorId)
+        RefreshInterior(CriminalEnterpriseVehicleWarehouse.InteriorId)
     end
 }
