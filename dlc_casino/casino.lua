@@ -58,6 +58,15 @@ DiamondCasino = {
             Remove = function()
                 EnableIpl(DiamondCasino.Ipl.Carpark.ipl, false)
             end
+        },
+        ArcadeRoom = {
+            ipl = "ch_dlc_arcade"
+            Load = function()
+                EnableIpl(DiamondCasino.Ipl.ArcadeRoom.ipl, true)
+            end,
+            Remove = function()
+                EnableIpl(DiamondCasino.Ipl.ArcadeRoom.ipl, false)
+            end
         }
     },
 
@@ -66,5 +75,6 @@ DiamondCasino = {
         DiamondCasino.Ipl.Main.Load()
         DiamondCasino.Ipl.Carpark.Load()
         DiamondCasino.Ipl.Garage.Load()
+        DiamondCasino.Ipl.ArcadeRoom()
     end
 }
